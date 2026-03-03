@@ -1067,7 +1067,7 @@ const SecuritySection = () => {
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
   const securityItems = [
-    'SOC 2 Type II certified',
+    'SOC 2 Type II Ready',
     'AES-256 encryption at rest',
     'TLS 1.3 in transit',
     'SAML + SCIM support',

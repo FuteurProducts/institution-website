@@ -43,7 +43,7 @@ const About = () => {
           {/* Stats Grid - Fortune 500 Style */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
             <div className="border-l-2 border-neutral-900 pl-6">
-              <p className="text-4xl md:text-5xl font-light text-neutral-900">$12M+</p>
+              <p className="text-4xl md:text-5xl font-light text-neutral-900">Significant</p>
               <p className="text-sm text-neutral-500 mt-2 uppercase tracking-wider">R&D Investment</p>
             </div>
             <div className="border-l-2 border-neutral-900 pl-6">
@@ -51,12 +51,12 @@ const About = () => {
               <p className="text-sm text-neutral-500 mt-2 uppercase tracking-wider">Months Development</p>
             </div>
             <div className="border-l-2 border-neutral-900 pl-6">
-              <p className="text-4xl md:text-5xl font-light text-neutral-900">47</p>
-              <p className="text-sm text-neutral-500 mt-2 uppercase tracking-wider">Engineers & Data Scientists</p>
+              <p className="text-4xl md:text-5xl font-light text-neutral-900">Growing</p>
+              <p className="text-sm text-neutral-500 mt-2 uppercase tracking-wider">Engineering Team</p>
             </div>
             <div className="border-l-2 border-neutral-900 pl-6">
-              <p className="text-4xl md:text-5xl font-light text-neutral-900">8</p>
-              <p className="text-sm text-neutral-500 mt-2 uppercase tracking-wider">Patents Pending</p>
+              <p className="text-4xl md:text-5xl font-light text-neutral-900">IP</p>
+              <p className="text-sm text-neutral-500 mt-2 uppercase tracking-wider">Portfolio in Development</p>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ const About = () => {
                 <div className="space-y-4">
                   <div className="flex flex-col gap-1 border-b border-neutral-200 pb-3">
                     <span className="text-sm text-neutral-500">Credit Decision Speed</span>
-                    <span className="text-xl font-light text-neutral-900">85% faster</span>
+                    <span className="text-xl font-light text-neutral-900">Significantly faster</span>
                   </div>
                   <div className="flex flex-col gap-1 border-b border-neutral-200 pb-3">
                     <span className="text-sm text-neutral-500">Partner Revenue Uplift</span>
@@ -105,10 +105,10 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-lg text-neutral-600 leading-relaxed">
                 <p>
-                  <span className="font-medium text-neutral-900">FuteurCredX Inc.</span> was founded with a singular mission: to build the infrastructure that powers the next generation of commercial credit decisioning. After three years of intensive research, development, and $12 million in R&D investment, we launched <span className="font-medium text-neutral-900">LumiqAI</span>—the enterprise API redefining how financial institutions assess and extend credit.
+                  <span className="font-medium text-neutral-900">FuteurCredX Inc.</span> was founded with a singular mission: to build the infrastructure that powers the next generation of commercial credit decisioning. After three years of intensive research and development, we launched <span className="font-medium text-neutral-900">LumiqAI</span>—the enterprise API redefining how financial institutions assess and extend credit.
                 </p>
                 <p>
-                  Our engineering team—comprising 47 specialists in machine learning, financial systems, and enterprise security—analyzed over 2.3 billion data points across commercial credit workflows. The result: a proprietary scoring engine with 8 patents pending, processing credit decisions 85% faster than industry benchmarks.
+                  Our growing engineering team—specialists in machine learning, financial systems, and enterprise security—analyzed billions of data points across commercial credit workflows. The result: a proprietary scoring engine with a growing IP portfolio, delivering meaningfully faster credit decisions than traditional benchmarks.
                 </p>
                 <p>
                   LumiqAI isn't a retrofit. It's a purpose-built platform architected from the ground up to meet the regulatory, security, and performance demands of Tier 1 financial institutions. Every API endpoint, every data pipeline, every compliance checkpoint was designed for enterprise scale.
@@ -119,8 +119,8 @@ const About = () => {
               <div className="mt-12 pt-8 border-t border-neutral-200">
                 <p className="text-sm font-medium text-neutral-500 uppercase tracking-wider mb-6">Certifications & Compliance</p>
                 <div className="flex flex-wrap gap-4">
-                  <div className="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium">SOC 2 Type II</div>
-                  <div className="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium">ISO 27001</div>
+                  <div className="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium">SOC 2 Type II Ready</div>
+                  <div className="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium">ISO 27001 Aligned</div>
                   <div className="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium">GDPR Compliant</div>
                   <div className="bg-neutral-900 text-white px-4 py-2 rounded-lg text-sm font-medium">CCPA Ready</div>
                   <div className="bg-neutral-100 text-neutral-900 px-4 py-2 rounded-lg text-sm font-medium">256-bit AES Encryption</div>
@@ -156,7 +156,7 @@ const About = () => {
             <div className="border-t border-neutral-300 pt-8">
               <h3 className="text-xl font-medium text-neutral-900 mb-4">Bank-Grade Security</h3>
               <p className="text-neutral-600 leading-relaxed">
-                SOC 2 Type II certified. Every transaction encrypted. Built to meet the compliance requirements of the most regulated institutions.
+                SOC 2 Type II ready. Every transaction encrypted. Built to meet the compliance requirements of the most regulated institutions.
               </p>
             </div>
             
@@ -251,7 +251,7 @@ const About = () => {
                 </li>
                 <li className="flex items-center gap-4 text-neutral-300">
                   <span className="w-1.5 h-1.5 rounded-full bg-white" />
-                  SOC 2 Type II compliant infrastructure
+                  SOC 2 Type II ready infrastructure
                 </li>
                 <li className="flex items-center gap-4 text-neutral-300">
                   <span className="w-1.5 h-1.5 rounded-full bg-white" />

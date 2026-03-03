@@ -212,10 +212,10 @@ const Footer = () => {
           {/* Final Copyright Line */}
           <div className="mt-8 pt-6 border-t border-white/10">
             <p className="text-xs text-white/40 text-center mb-3">
-              © 2026 FUTEURCREDX. LUMIQ AI™ and FUTEURCREDX® are registered trademarks. All rights reserved.
+              © 2026 FUTEURCREDX. LUMIQ AI™ and FUTEURCREDX™ are trademarks of FuteurCredX Inc. All rights reserved.
             </p>
             <p className="text-xs text-white/30 text-center mb-4">
-              SOC 2 • ISO 27001 Compliant • Data Residency: United States Only
+              SOC 2 Ready • FCRA Aligned • Data Residency: United States Only
             </p>
             <p className="text-[10px] text-white/25 text-center leading-relaxed max-w-4xl mx-auto">
               <strong>Disclaimer:</strong> All third-party logos, trademarks, brand names, screenshots, mockups, and visual demonstrations displayed on this website are the property of their respective owners and are used for illustrative and demonstration purposes only. No affiliation, endorsement, sponsorship, or partnership with any third-party company is implied or intended. The inclusion of any company name, logo, or brand does not constitute a claim of ownership or association. This website and its content are for evaluation and demonstration purposes only. All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.

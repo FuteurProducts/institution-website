@@ -256,7 +256,7 @@ const timelinePhases = [
 
 // Security items
 const securityItems = [
-  { title: "SOC 2 Type II", description: "Full certification package available for your review" },
+  { title: "SOC 2 Type II Ready", description: "Readiness documentation package available for your review" },
   { title: "FCRA / ECOA Compliance", description: "SHAP-based reason codes + visual counterfactuals" },
   { title: "Pen Testing", description: "Annual red-team assessments (latest PDF available)" },
   { title: "Data Governance", description: "Immutable audit trail, override log, IP whitelist support" },
@@ -595,7 +595,7 @@ const ArchitectureSection = () => {
                 <span className="font-semibold">Enterprise-Ready</span>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
-                LumiqAI is designed for bank-grade security with SOC 2 Type II certification, 
+                LumiqAI is designed for bank-grade security with SOC 2 Type II readiness,
                 FCRA compliance, and zero data persistence post-session.
               </p>
             </div>

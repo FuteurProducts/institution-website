@@ -596,7 +596,7 @@ const CaseStudyCreditUnions = () => {
             <div className="mt-16 pt-12 border-t border-white/20 flex flex-wrap items-center justify-center gap-8 text-emerald-100">
               <div className="flex items-center gap-2">
                 <Shield className="w-5 h-5" />
-                <span>SOC 2 Certified</span>
+                <span>SOC 2 Ready</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />

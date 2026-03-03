@@ -443,7 +443,7 @@ const SecurityCompliance = () => {
               Development
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Built & Monitored to Bank-Certified Standards
+              Built & Monitored to Bank-Grade Security Standards
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Security is built into every stage of our development lifecycle with continuous monitoring and rapid response.

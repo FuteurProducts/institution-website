@@ -440,7 +440,7 @@ const CaseStudyRegionalBanks = () => {
             
             <div className="flex flex-wrap justify-center gap-8">
               {[
-                { icon: Shield, label: 'SOC 2 Certified' },
+                { icon: Shield, label: 'SOC 2 Ready' },
                 { icon: Award, label: 'Bank-Grade Security' },
                 { icon: Zap, label: '30-Day Deploy' }
               ].map((item, i) => (

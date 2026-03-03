@@ -177,7 +177,7 @@ const Index = () => {
       <footer className="py-8 border-t border-border bg-card">
         <div className="container mx-auto px-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 LumiqAI. Empowering banks to serve SMBs better.
+            © 2026 LumiqAI. Empowering banks to serve SMBs better.
           </p>
         </div>
       </footer>
