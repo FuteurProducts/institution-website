@@ -112,25 +112,26 @@ const ContactForm = () => {
     setSubmitStatus('idle');
     setErrorMessage('');
 
-    const form = e.currentTarget;
-    const formDataToSend = new FormData(form);
-    formDataToSend.append("access_key", "215dd77a-4e79-424d-bf1d-d45da4631775");
-    
-    // Add the inquiry type label for better readability in emails
     const inquiryLabel = inquiryOptions.find(opt => opt.value === formData.inquiryType)?.label || formData.inquiryType;
-    formDataToSend.set("inquiry_type", inquiryLabel);
 
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formDataToSend
+      const response = await fetch('https://api.sandbox.futeurcredx.com/api/v1/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: `${formData.firstName} ${formData.lastName}`.trim(),
+          email: formData.email,
+          company: formData.companyName,
+          message: `${formData.message || 'No message provided'}\n\nInquiry Type: ${inquiryLabel}\nWebsite: ${formData.companyWebsite || 'Not provided'}`,
+          source_site: 'institutions.futeurcredx.com',
+          source_form: 'institution_contact',
+        }),
       });
 
       const data = await response.json();
 
       if (data.success) {
         setSubmitStatus('success');
-        // Reset form
         setFormData({
           firstName: '',
           lastName: '',
